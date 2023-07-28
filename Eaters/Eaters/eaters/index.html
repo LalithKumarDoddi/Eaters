@@ -1,0 +1,802 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Eaters - The Best Restaurants In Your Home</title>
+  <meta name="title" content="Eaters - The Best Restaurants In Your Home">
+  <meta name="description" content="This is a food html template">
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  
+
+
+</head>
+
+<body>
+
+  <div class="loading-container" data-loading-container>
+    <div class="loading-circle"></div>
+  </div>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./favicon.svg" width="148" height="38" alt="Eaters home">
+      </a>
+
+      <h1 class="hero-title" id="eaters">Eaters</h1>
+
+      <nav class="navba" data-navbar>
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about us" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#restaurant" class="navbar-link" data-nav-link>Restaurants</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Contacts us" class="navbar-link" data-nav-link>Contacts</a>
+          </li>
+
+        </ul>
+      </nav>
+  </header>
+
+
+  <main>
+    <article>
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+
+          <div class="hero-content" data-reveal="left">
+            <h1 class="hero-title">The Best Restaurants In Your Home</h1>
+
+            <p class="hero-text">
+              Don’t wait, order now! Craving satisfaction just a click away. Time to feast  place your order now! Hungry?
+            </p>
+
+            <a href="orders.html" class="btn btn-secondary has-after" id="label">Order Now</a>
+          </div>
+
+          <figure class="hero-banner" data-reveal>
+
+            <img src="./assets/images/hero-banner.png" width="680" height="720" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+      <section class="section instruction">
+        <div class="container">
+          <h2 class="h2 section-title" id="instruction-label" data-reveal>How It Works</h2>
+          <p class="section-text" data-reveal>
+            Just by following below three simple steps your order will be on your table.
+          </p>
+          <ul class="grid-list">
+            <li data-reveal="left">
+              <div class="instruction-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/instructuion-1.png" width="300" height="154" loading="lazy"
+                    alt="Select Restaurant" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title" id="label">
+                    <span class="span">01</span>
+                    Select Restaurant
+                  </h3>
+
+                  <p class="card-text">
+                    Select your nearest or favorite Restaurant according to your taste.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/instructuion-2.png" width="300" height="154" loading="lazy"
+                    alt="Select menu" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title" id="label">
+                    <span class="span">02</span>
+                    Select menu
+                  </h3>
+
+                  <p class="card-text">
+                    Search for your delicious food like Indian, Chinese, Italian starters, Main course and Beverages 
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal="right">
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/instructuion-3.png" width="300" height="154" loading="lazy"
+                    alt="Wait for delivery" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title" id="label">
+                    <span class="span">03</span>
+                    Wait for delivery
+                  </h3>
+
+                  <p class="card-text">
+                    Wait for delivery agent to recieve your favorite food after delivery enjoy your order food and feel the taste.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section top-restaurant" aria-labelledby="top-restaurent-label" id = "restaurant">
+        <div class="container select-top-restaurants">
+          <center>
+          <h2 class="h2 section-title" id="top-restaurent-label">
+            10 Best Restaurants in Your City
+          </h2>
+
+          <p class="section-text">
+            you are a foodie and in need of genuine recommendations, below is a rundown of the best restaurants <br /> in Vizag that you must visit when in the city.
+          </p>
+        </center>
+          <ul class="grid-list">
+
+            <li data-reveal="right">
+              <div class="restaurant-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/resto1.jpg" width="100" height="100" loading="lazy"
+                    alt="StarBucks Coffee" class="w-100">
+                </div>
+
+                <h3 class="h5 card-title "id="label">StarBucks Coffee</h3>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-meta-wrapper">
+                  <a href="#" class="card-meta">Cold coffee</a>
+                  <a href="#" class="card-meta">Iced coffee</a>
+                </div>
+
+                <p class="card-text">
+                 Starbucks opened its first store, offering fresh-roasted coffee beans, tea and spices from around the world for our customers to take home.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="left">
+              <div class="restaurant-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/kfc.jpg" width="100" height="100" loading="lazy" alt="KFC"
+                    class="w-100">
+                </div>
+
+                <h3 class="h5" id="label">KFC</h3>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-meta-wrapper">
+                  <a href="#" class="card-meta">Chicken buckets</a>
+                  <a href="#" class="card-meta">Biriyani buckets</a>
+                </div>
+
+                <p class="card-text">
+                  Kentucky Fried Chicken, popularly known as KFC, is a fast food restaurant chain that is known for its fried chicken.A list of secret herbs and spices scratched out on the back of his kitchen door and freshly preparing bucket after bucket of our signature Hot & Crispy chicken.
+                </p>
+
+              </div>
+            </li>
+            <li data-reveal="left">
+              <div class="restaurant-card">
+
+                <div class="card-icon">
+                  <img src="https://content.jdmagicbox.com/comp/hyderabad/y2/040pxx40.xx40.170609200933.f6y2/catalogue/mumtaz-restaurant-secunderabad-hyderabad-restaurants-fgk8q.jpg" width="100" height="100" loading="lazy" alt="Zeeshan"
+                    class="w-100">
+                </div>
+
+                <h3 class="h5 card-title" id="label"> Mumtaz Hotel</h3>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-meta-wrapper">
+                  <a href="#" class="card-meta">Biryani's</a>
+                  <a href="#" class="card-meta">Starters</a>
+                </div>
+
+                <p class="card-text">
+                  Biryani is made up of freshly cooked aromatic rice, marinated with a combination of spices and the meat of your choice (Chicken, Mutton, Fish).
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="left">
+              <div class="restaurant-card">
+
+                <div class="card-icon">
+                  <img src="https://economictimes.indiatimes.com/thumb/msid-61114011,width-1200,height-900,resizemode-4,imgsize-92540/north-india-may-soon-get-a-taste-of-paradise.jpg?from=mdr" width="100" height="100" loading="lazy" alt="Paradise"
+                    class="w-100">
+                </div>
+
+                <h3 class="h5 card-title" id="label">Paradise</h3>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-meta-wrapper">
+                  <a href="#" class="card-meta">Biryani's</a>
+                  <a href="#" class="card-meta">Kebabs</a>
+                  
+                </div>
+
+                <p class="card-text">
+                  One of the world's favorite biryani restaurants, Paradise has added a brand new Biryani and Kebab to its existing list of authentic and popular Biryanis and Kebabs. The two new dishes viz. 
+                  Fiery Chicken Biryani and Fiery Chicken Kebab are launched for those who love spicy food. 
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="left">
+              <div class="restaurant-card">
+
+                <div class="card-icon">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReign2LeKmxhD2UrXiJ47bRqP1OMS3pYPbbw&usqp=CAU" width="100" height="100" loading="lazy" alt="Alpha"
+                    class="w-100">
+                </div>
+
+                <h3 class="h5 card-title" id="label">Alpha Restaurant</h3>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-meta-wrapper">
+                  <a href="#" class="card-meta">Dum Biryani</a>
+                  <a href="#" class="card-meta"> Soups </a>
+                </div>
+
+                <p class="card-text">
+                  A neon sign proudly proclaims to specialise in Hyderabadi Biryani at the Jagadamba Junction, Vizag. Always packed with customers, Alpha Hotel has been the go-to for anyone craving some authentic dum biryani that
+                  will also offer them a generous side of nostalgia. 
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="left">
+              <div class="restaurant-card">
+
+                <div class="card-icon">
+                  <img src="https://www.allrecipes.com/thmb/15-XUCxOJ-v7RcGbTupXsbncwPY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-pizza-hut-storefront-4x3-546aefe5129d4242a39f38c202ad1e4c.jpg" width="100" height="100" loading="lazy" alt="Pizza hut"
+                    class="w-100">
+                </div>
+
+                <h3 class="h5 card-title" id="label">Pizza hut</h3>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-meta-wrapper">
+                  <a href="#" class="card-meta"> American </a>
+                  <a href="#" class="card-meta"> Italian </a>
+                </div>
+
+                <p class="card-text">
+                  pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly usually, in a commercial setting, using a wood fired oven
+                   heated to a very high temperature and served hot.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="left">
+              <div class="restaurant-card">
+
+                <div class="card-icon">
+                  <img src="https://content.pymnts.com/wp-content/uploads/2021/11/dominos.jpg" width="100" height="100" loading="lazy" alt="dominos"
+                  
+                    class="w-100">
+                </div>
+
+                <h3 class="h5 card-title" id="label">dominos</h3>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-meta-wrapper">
+                  <a href="#" class="card-meta">Burgers</a>
+                  <a href="#" class="card-meta">Pizza's</a>
+                </div>
+
+                <p class="card-text">
+                  a popular sandwich made from ground meats that are formed into a patty, cooked, and placed between two halves of a bun. Although the most common Burger is made with meat, there are many 
+                  alternatives that do not include meat, 
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="left">
+              <div class="restaurant-card">
+
+                <div class="card-icon">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTkfCBoPWUGAh8PX60cuduuqjhS2YGz5aCVWPjG_HnMC_DGG0Ky6FpbbwRfLFkGo35C5A&usqp=CAU" width="100" height="100" loading="lazy" alt="majali dhabar"
+                    class="w-100">
+                </div>
+
+                <h3 class="h5 card-title" id="label">majali dhabar</h3>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-meta-wrapper">
+                  <a href="#" class="card-meta">Mughali</a>
+                  <a href="#" class="card-meta">Punjabi</a>
+                </div>
+
+                <p class="card-text">
+                  Majlis darbar is an Arabian Restaurant, With a different variety of dishes regarding Arabian style. 
+                  The Flavour and essence looks attractive and you can expect to be indulged into a regal Mughali,Chinese,Punjabi and Keralite cuisine experience Our Fried Chicken.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="left">
+              <div class="restaurant-card">
+
+                <div class="card-icon">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFb0QprwWIRwYA1RK-29l6EwSn1ymaUxYhJ3B701fJ7_DEWzsuCfObMIIOv5uNjSD0FoU&usqp=CAU" width="100" height="100" loading="lazy" alt="arabaian night"
+                    class="w-100">
+                </div>
+
+                <h3 class="h5 card-title" id="label">arabaian night</h3>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-meta-wrapper">
+                  <a href="#" class="card-meta">Mandis</a>
+                  <a href="#" class="card-meta">Starters</a>
+                </div>
+
+                <p class="card-text">
+                  Mandi was usually made from rice, meat (lamb, camel, goat or chicken), and a mixture of spices called hawaij. The main technique that differentiates 
+                  mandi from other meat dishes is that the meat is cooked in the tannour.
+                </p>
+
+              </div>
+            </li>
+
+
+              <li data-reveal="right">
+              <div class="restaurant-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/restro3.jpeg" width="100" height="100" loading="lazy" alt="Subhayya gari hotel"
+                    class="w-100">
+                </div>
+
+                <h3 class="h5 card-title" id="label">Subhayya gari hotel</h3>
+
+                +<div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidd
+                  .en="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-meta-wrapper">
+                  <a href="#" class="card-meta">Andhra bhojanam</a>
+                  <a href="#" class="card-meta">pickles</a>
+                </div>
+
+                <p class="card-text">
+                  Subbayya Gari Hotel is an Indian chain of vegetarian restaurants. The entire Andhra bhojanam is served in a Basket made with leaves. It consists of Plain rice, Pappu, Sambar, Vegetable fry, Majjiga pulusu, Pickles, Sweet, Podi (Powders), Pulihora, Veg curries, Curd, Appadams. This product is the main reason behind the success of the hotel.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section cta has-bg-image" aria-labelledby="cta-label"
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+
+          <figure class="cta-banner" data-reveal="left">
+            <img src="./assets/images/table.jpg" width="680" height="704" loading="lazy" alt="cta banner"
+              class="w-100">
+          </figure>
+
+          <div class="cta-content" data-reveal="right">
+
+            <h2 class="h3 section-title" id="cta-label">
+              Food from your favorite restaurants to your table
+            </h2>
+
+            <p class="section-text">
+              Order your favorite food from your favorite restarant and enjoy the Delicious tasty food with your family orfriends on your table.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="stats" aria-label="statistics" data-reveal>
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <h2 class="h3 section-title" id="label">Service shows good taste.</h2>
+            </li>
+
+            <li class="stats-item">
+              <span class="span">976</span>
+
+              <p class="stats-text" id="label">
+                Satisfied <br>
+                Customer
+              </p>
+            </li>
+
+            <li class="stats-item">
+              <span class="span">10</span>
+
+              <p class="stats-text" id="label" >
+                
+                Best <br>
+                Restaurants
+              </p>
+            </li>
+
+            <li class="stats-item">
+              <span class="span">1K+</span>
+
+              <p class="stats-text" id="label">
+                Food <br>
+                Delivered
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+   
+      <section class="section testi" aria-labelledby="testi-label" id="about us">
+        <div class="container">
+
+          <div class="testi-content" data-reveal="left">
+
+            <h2 class="h2 section-title" id="testi-label">What customers say about us</h2>
+
+            <blockquote class="testi-text">
+              "customer satisfaction is the degree to which guest is happy with product or service ".
+            </blockquote>
+
+            <div class="wrapper">
+              <img src="./assets/images/testi-avatar.jpg" width="70" height="70" loading="lazy" alt="Thomas Adamson"
+                class="author-img">
+
+              <div>
+                <p class="author-title">Manivarnan</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <figure class="testi-banner" data-reveal="right">
+            <img src="./assets/images/review.jpg" width="680" height="588" alt="testimonial banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+  
+      <section class="section partnership" aria-label="partnership">
+        <div class="container">
+
+          <h2 class="h2 section-title" data-reveal>Want to Join Partnership?</h2>
+
+          <ul class="grid-list">
+
+            <li data-reveal="left">
+              <div class="partnership-card">
+
+                <figure class="card-banner img-holder" style="--width: 640; --height: 402;">
+                  <img src="./assets/images/partner-1.jpg" width="640" height="402" loading="lazy" alt="Join Courier"
+                    class="img-cover">
+                </figure>
+              </div>
+            </li>
+
+            <li data-reveal="right">
+              <div class="partnership-card">
+
+                <figure class="card-banner img-holder" style="--width: 640; --height: 402;">
+                  <img src="./assets/images/partner-2.jpg" width="640" height="402" loading="lazy" alt="Join Merchant"
+                    class="img-cover">
+                </figure>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <figure class="newsletter-banner" data-reveal="left">
+            <img src="./assets/images/newsletter-banenr.png" width="680" height="405" loading="lazy" alt="Illustration"
+              class="w-100">
+          </figure>
+
+          <div class="newsletter-content" data-reveal="right">
+            <h2 class="h4 section-title">
+              Get the menu of your favorite restaurants every day
+            </h2>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Enter email address" required class="input-field" id="label">
+              <button type="submit" class="btn btn-primary has-after">
+                <span class="span" id="label">Subscribe</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <section id="Contacts us">
+    <div class="container">
+
+      <div class="section footer-top grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./favicon.svg" width="148" height="38" alt="Easter home">
+          </a>
+
+          <h2 class="h2 section-title" id="your-home">The Best Restaurants in Your Home</h2>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title h5" id="menu-title">Menu</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Home</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about us" class="footer-link">
+              <span class="span">About Us</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#restaurant" class="footer-link">
+              <span class="span">Restaurants</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </li>
+
+          <li>
+            <a href="#Contacts us" class="footer-link">
+              <span class="span">Contacts</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title h5" id="menu-title">Contacts</p>
+          </li>
+
+          <li>
+            <address class="address">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+              <span class="span">22-4/A Rama takies,Visakhapatnam,Andhra pradesh 530016</span>
+            </address>
+          </li>
+
+          <li>
+            <a href="mailto:eaters@gmail.com" class="footer-link">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+              <span class="span">eaters@gmail.com</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="tel:1234512345" class="footer-link">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+              <span class="span">+91 1234512345</span>
+            </a>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.facebook.com/" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Faccountscenter.instagram.com%2F%3F__coig_login%3D1" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          Copyright @ All rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+    </section>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
